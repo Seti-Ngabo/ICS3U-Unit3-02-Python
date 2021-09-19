@@ -8,11 +8,11 @@ import constants
 
 def main():
     # this function checks if the random number is correct
-    
-    #input
+
+    # input
     guess = int(input("Enter the number between 0 and 9: "))
     print("")
-    
+
     # process and output
     if guess == constants.THE_NUMBER:
         print("Correct")
@@ -20,7 +20,7 @@ def main():
         print("Done.")
     else:
         print("wrong, try again.")
-        
+
 
 if __name__ == "__main__":
     main()
