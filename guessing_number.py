@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 # Created by: Seti Ngabo
 # Created on: Sept 2021
 # This program guesses a random number
@@ -16,8 +17,7 @@ def main():
     # process and output
     if guess == constants.THE_NUMBER:
         print("Correct")
-        print("")
-        print("Done.")
+        print("\nDone.")
     else:
         print("wrong, try again.")
 
